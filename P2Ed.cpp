@@ -303,7 +303,7 @@ void exibirElementosEmOrdem(NO* no)
 
 void buscarElementoArvore(NO* no, int valor)
 {
-	if (no == NULL) {
+	if (no == NULL) { 
 		cout << "Elemento nao encontrado \n";
 		return;
 	}
