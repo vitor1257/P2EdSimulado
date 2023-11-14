@@ -295,7 +295,7 @@ void exibirElementosEmOrdem(NO* no)
 		exibirElementosEmOrdem(no->dir);
 		cout << no->valor << "\n";
 
-		if (no->esq != NULL) {
+		if (no->esq != NULL) { 
 			exibirElementosEmOrdem(no->esq);
 		}
 	}
